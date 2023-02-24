@@ -16,6 +16,6 @@ rm -rf setup.sh && apt update && apt upgrade && apt install wget && apt install 
 - Register IP 🙆
 - Support Wildcard 🙅
 - Support Virtualization KVM & OpenVZ 🤷
-- Support Custom Xray-core / CF-RAY 🤦
+- Support Custom Xray-core / CF-RAY COK 🤦
 
 
