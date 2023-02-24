@@ -7,7 +7,7 @@ IZIN=$( curl -sS 47.254.121.146:8081/permission.txt | grep "$MYIP" )
 if [ "$MYIP" = "$IZIN" ]; then
 echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
-echo -e "${NC}${RED}DITOLAK MENTAH MENTAH WKWKWKWKKW!${NC}";
+echo -e "${NC}${RED}DITOLAK SECARA TIDAK TERHORMAT WKWKWK${NC}";
 echo -e "${NC}${LIGHT}MALLLLLLLLLLLLLIIIIIIIIIIIIGGGGGGGGGGGGGGGG!!"
 exit 0
 fi
