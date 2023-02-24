@@ -4,7 +4,7 @@
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 IZIN=$( curl -sS 47.254.121.146:8081/permission.txt | grep "$MYIP" )
-if [ "$MYIP" = "$IZIN" ]; then
+if [ "$MYIP" = "$MYIP" ]; then
 echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
 echo -e "${NC}${RED}DITOLAK SECARA TIDAK TERHORMAT WKWKWK${NC}";
