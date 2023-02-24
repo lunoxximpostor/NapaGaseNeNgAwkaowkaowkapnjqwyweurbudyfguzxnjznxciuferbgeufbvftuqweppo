@@ -8,7 +8,7 @@ if [ "$MYIP" = "$MYIP" ]; then
 echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
 echo -e "${NC}${RED}DITOLAK SECARA TIDAK TERHORMAT WKWKWK${NC}";
-echo -e "${NC}${LIGHT}MALLLLLLLLLLLLLIIIIIIIIIIIIGGGGGGGGGGGGGGGG!!"
+echo -e "${NC}${LIGHT}MALLLLLLLIIIIIIIIIIIIGGGGGGGGGGGGGGGG!!"
 exit 0
 fi
 clear
